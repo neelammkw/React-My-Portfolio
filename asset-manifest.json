@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/neelammkw/React-My-Portfolio.git/static/css/main.7b9d2f4f.css",
+    "main.js": "/neelammkw/React-My-Portfolio.git/static/js/main.c1d62167.js",
+    "static/media/1.bmp": "/neelammkw/React-My-Portfolio.git/static/media/1.871330e647969b85ea87.bmp",
+    "index.html": "/neelammkw/React-My-Portfolio.git/index.html",
+    "main.7b9d2f4f.css.map": "/neelammkw/React-My-Portfolio.git/static/css/main.7b9d2f4f.css.map",
+    "main.c1d62167.js.map": "/neelammkw/React-My-Portfolio.git/static/js/main.c1d62167.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b9d2f4f.css",
+    "static/js/main.c1d62167.js"
+  ]
+}
