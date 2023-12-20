@@ -1,0 +1,76 @@
+#Hero {
+    width: 100%;
+    display: flex;
+    gap: 10;
+    justify-content: center;
+    min-height: 60vh;
+    align-items: center;
+
+    >.about {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        flex-wrap: wrap;
+
+        >.btns {
+            display: flex;
+            flex-direction: row;
+            margin-left: -10vh;
+        }
+
+        >.btns button {
+            padding: 10px 20px;
+            border: none;
+            background-color: black;
+            color: wheat;
+            font-size: 15px;
+            border-radius: 8%;
+            margin: 20px 10px;
+            cursor: pointer;
+        }
+
+        >.btns button:nth-child(2) {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+
+            // background-color: rgb(170, 53, 53);
+            background-color: white;
+            font-size: 15px;
+            border-radius: 8%;
+            margin: 20px 10px;
+            color: black;
+            border: 1px solid black;
+            transition: .2s all;
+
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+
+
+    }
+
+    >.me {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        align-items: center;
+        flex-direction: row;
+        margin: 20px 20px;
+
+
+        >div {
+
+            >img {
+                width: 10%;
+                border-radius: 20px;
+                z-index: 10;
+            }
+        }
+    }
+}
