@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './sass/index.scss';
 import App from './App';
-import {BrowserRouter, HashRouter} from 'react-router-dom'
-import { HashRouter as Router} from 'react-router-dom';
+
 import {
   createHashRouter,
   RouterProvider
